@@ -123,11 +123,11 @@ h3 {
 
 @media screen and (min-width: 680px) {
 
-  .hero-quoate {
+  .hero-quote {
       background-image: url(../img/robert-lukeman-watterfall.jpg);
-  text-align: center;
-  background-size:cover;
-  background-attachment: fixed;
+    text-align: center;
+    background-size:cover;
+    background-attachment: fixed;
   }
 
   .hero-quote h2 {
