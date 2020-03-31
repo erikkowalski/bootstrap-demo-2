@@ -12,6 +12,12 @@ p {
     font-family: anziano, sans-serif;
 }
 
+.container-fluid .col{
+  padding-right: 0;
+  padding-left: 0;
+
+}
+
 .main-nav .brand {
     font-family: anziano, serif;
     text-transform: none;
