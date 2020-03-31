@@ -12,6 +12,18 @@ p {
     font-family: anziano, sans-serif;
 }
 
+h1 {
+    font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+h3 {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
 .container-fluid .col{
   padding-right: 0;
   padding-left: 0;
@@ -101,10 +113,7 @@ p {
   color: #fff9ee;
   font-family: anziano, sans-serif;
   font-style: italic;
-  text-align: center;
-  background-image: url(../img/robert-lukeman-watterfall.jpg);
-  background-size:cover;
-  background-attachment: fixed;
+
 
 }
 
@@ -113,6 +122,13 @@ p {
 }
 
 @media screen and (min-width: 680px) {
+
+  .hero-quoate {
+      background-image: url(../img/robert-lukeman-watterfall.jpg);
+  text-align: center;
+  background-size:cover;
+  background-attachment: fixed;
+  }
 
   .hero-quote h2 {
     font-size: 4em;
